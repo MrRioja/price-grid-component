@@ -77,10 +77,35 @@ body {
   border-radius: 0 0 0 0.5rem;
 }
 
-.price {
+.card-2 div {
+  display: flex;
+  margin-bottom: .5rem;
+  align-items: center;
+}
+
+.value {
   font-size: 2rem;
   font-weight: bold;
   margin-right: 1rem;
+}
+
+.price {
+  opacity: .6;
+  display: inline-block;
+}
+
+.card-2>p {
+  margin-bottom: 2rem;
+}
+
+.card-2 button {
+  width: 90%;
+  border: none;
+  color: #FFF;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background: var(--Bright-Yellow);
 }
 
 .card-3 {
